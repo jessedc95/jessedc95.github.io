@@ -1,10 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Playground</title>
+        <title>A Simple Canvas Example</title>
+            <style>
+                body {
+                    background: #dddddd;
+                }
+                #canvasOne {
+                    margin: 10px;
+                    padding: 10px;
+                    background: #ffffff;
+                    border: thin inset #aaaaaa;
+                }
+            </style>
     </head>
     <body>
-        <p>This is an example of a simple HTML page with one paragraph.</p>
-        <p>This is another paragraph.</p>
+        <canvas id="canvasOne" width="500" height="300">
+            Your browser does not support HTML5 Canvas.
+        </canvas>
+           
+        <script src='example.js'></script>
     </body>
 </html>
